@@ -1,31 +1,3 @@
-# Como executar código JavaScript?
-* Uma das formas é por meio do navegador.
-* E também pelo Nodejs.
-
-* A maneira mais simples:
-
-```html
-    <!DOCTYPE html>
-    <html>
-        <head>
-            <meta charset="UTF-8">
-            <title>Page Title</title>
-        </head>
-        <body>
-            <script>
-                // Your JavaScript goes here!
-                console.log("Hello, World!")
-            </script>
-        </body>
-    </html>
-```
-* Para ver esse código temos que abrir o console do navegador por meio do inspect ou inspect Element.
-
-* Outra forma é vincular um arquivo externo:
-
-```html
-  <script src="javascript.js"></script>
-```
 
 # Variáveis 
 
@@ -110,9 +82,9 @@ e isto: let b = 7 * a (retorna undefined*) e então console.log(b)
 *  Defina outra variável percentage para actual / MAX
 * Se você digitar percentage no console e pressionar Enter, deverá ver um valor como 0.7719
 # Ler
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript
 
-https://www.w3schools.com/js/js_arithmetic.asp 
+
+
 
 https://www.w3schools.com/js/js_numbers.asp
 
@@ -123,4 +95,46 @@ https://javascript.info/operators
 
 https://javascript.info/variables
  
- TESTE
+ 
+# Operadores aritméticos:
+
+
+| OPERADOR      | DESCRIÇÃO     |
+| ------------- | ------------- |
+| +             | Adição        |
+| -             | Subtração     |
+| *             | Multiplicação |
+| **            | Exponenciação |
+| /             | Divisão       |
+| %             | Resto da divisão |
+| ++            | Incremento    |
+| --            | Decremento    |
+
+
+* Exemplos:
+
+```js
+let x = 100 + 50;
+let x = 100 - 50;
+let z = x * y;
+let z = x * y;
+
+// resto da divisão
+let x = 5;
+let y = 2;
+let z = x % y;
+
+
+//incrementando
+let x = 5;
+x++;
+
+//decrementando
+
+let x = 5;
+x--;
+//Exponenciação
+let x = 5;
+let z = x ** 2;
+
+```
